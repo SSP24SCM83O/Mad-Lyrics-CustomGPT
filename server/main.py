@@ -41,8 +41,8 @@ SUNO_COOKIE = os.getenv("SUNO_COOKIE")
 openai.api_key = os.getenv("OPEN_AI_API_KEY")
 
 class Name(BaseModel):
-    firstName: str = "Jas"
-    lastName: str = "Wu"
+    firstName: str = "Sai"
+    lastName: str = "Ram"
 # manages the connection across mukt clients and sate of ws
 class ConnectionManager:
     # initializes ws and adds to active connections inside of a dictionary
